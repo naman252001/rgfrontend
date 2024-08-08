@@ -1,6 +1,9 @@
 .App {
   text-align: center;
 }
+.App {
+  overflow-x: hidden;
+}
 
 .App-logo {
   height: 40vmin;
@@ -22,6 +25,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  overflow-x: hidden;
 }
 
 .App-link {
@@ -34,5 +38,31 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+/* .Shivam{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+} */
+
+
+
+
+
+
+/* Header.css */
+img.w-50 {
+  max-width: 150px;
+}
+
+button {
+  margin: 5px 0;
+}
+
+@media (max-width: 576px) {
+  .col-sm-3, .col-sm-4, .col-sm-1 {
+      text-align: center;
   }
 }
