@@ -17,7 +17,7 @@ const Header = () => {
                 <Link to="/" >   <img className=" w-25"  src="/imgs/logo.png" alt="logo here"/> </Link>
             </div>
             <div className="col-sm-5 text-center" >
-                <b>   <i> Creating Happy Home Owners Everyday </i> </b>
+                <b>   <i> GHAR APNA SABKA SAPNA </i> </b>
             </div>
             <div className="col-sm-4 d-flex justify-content-center">
             {
